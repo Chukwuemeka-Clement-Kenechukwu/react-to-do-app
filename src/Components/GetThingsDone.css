@@ -1,0 +1,89 @@
+.appContainer {
+    max-width: 500px;
+    background-color: black;
+    margin:  50px auto;
+    padding: 20px;
+    color: white;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgb(0, 0, 1);
+}
+
+.inContainer {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.inContainer input {
+    flex: 1;
+    padding: 7px 15px;
+    border-radius: 6px;
+    border: 2px white solid;
+    font-size: 1.1rem;
+    background-color: gray;
+    color: white;
+}
+
+.inContainer input::placeholder{
+    color: whitesmoke;
+}
+
+.inContainer button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: white;
+    cursor: pointer;
+}
+
+.inContainer button:hover {
+    background-color: rgb(145, 215, 247);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: gray;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: rgb(158, 225, 158);
+}
+
+.red {
+    color: rgb(245, 186, 186);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.red:hover{
+    background-color: rgb(250, 0, 0);
+    color: rgb(107, 0, 0);
+}
+
+.green {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: rgb(143, 218, 143);
+}
+
+.green:hover{
+    background-color: rgb(3, 254, 3);
+    color: rgb(1, 115, 1);
+}
